@@ -1,0 +1,14 @@
+type StoreConfig @doc(description: "The type contains information about a store config") {
+    stripe_mode: String @doc(description: "Stripe Mode, either test or live")
+    stripe_test_pk: String @doc(description: "Stripe Test Publishable API Key")
+    stripe_live_pk: String @doc(description: "Stripe Live Publishable API Key")
+}
+
+input PaymentMethodInput {
+    stripe: StripeInput @doc(description: "Required input for Stripe payments")
+}
+
+input StripeInput {
+    cc_stripejs_token: String! @doc(description: "Payment token")
+    cc_save: Boolean! @doc(description: "Save card")
+}

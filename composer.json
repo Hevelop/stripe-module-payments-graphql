@@ -1,0 +1,20 @@
+{
+    "name": "hevelop/stripe-module-payments-graphql",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "stripe/module-payments": "2.5.*"
+    },
+    "license": [
+        "AGPL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hevelop\\StripeGraphQl\\": ""
+        }
+    }
+}
