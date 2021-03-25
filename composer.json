@@ -1,6 +1,6 @@
 {
     "name": "hevelop/stripe-module-payments-graphql",
-    "description": "N/A",
+    "description": "This module exposes GraphQl API for Magento 2 Stripe Payments module",
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
