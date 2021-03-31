@@ -21,3 +21,7 @@ and compile the Magento dependency injection:
 ```
 bin/magento setup:di:compile
 ```
+### Tested with
+- [stripe/stripe-payments:2.5.4](https://marketplace.magento.com/stripe-stripe-payments.html)
+- Magento 2.4.2
+- [stripe/react-stripe-js:^1.4.0](https://stripe.com/docs/stripe-js/react)
